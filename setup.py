@@ -2,7 +2,7 @@ from setuptools import setup
 from setuptools import find_packages
 
 pkg_location = 'src'
-pkg_name     = 'rishabhkhoslafinance'
+pkg_name     = 'mplfinance'
 
 vfile = './'+pkg_location+'/'+pkg_name+'/_version.py'
 vers = {}
@@ -21,7 +21,7 @@ setup(name=pkg_name,
       description='Utilities for the visualization, and visual analysis, of financial data',
       long_description=long_description,
       long_description_content_type='text/markdown; charset=UTF-8',
-      url='http://github.com/rishabh173/rishabhkhoslafinance',
+      url='http://github.com/matplotlib/mplfinance',
       platforms='Cross platform (Linux, Mac OSX, Windows)',
       install_requires=['matplotlib','pandas'],
       license="BSD-style",
