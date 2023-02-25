@@ -13,7 +13,7 @@ with open('README.md') as f:
     long_description = f.read()
 
 setup(name=pkg_name,
-      version=vers['__version__'],
+#       version=vers['__version__'],
       author='MPL Developers',
       author_email='matplotlib-users@python.org',
       maintainer_email='dgoldfarb.github@gmail.com',
@@ -21,7 +21,7 @@ setup(name=pkg_name,
       description='Utilities for the visualization, and visual analysis, of financial data',
       long_description=long_description,
       long_description_content_type='text/markdown; charset=UTF-8',
-      url='http://github.com/matplotlib/mplfinance',
+      url='http://github.com/rishabh173/rishabhkhoslafinance',
       platforms='Cross platform (Linux, Mac OSX, Windows)',
       install_requires=['matplotlib','pandas'],
       license="BSD-style",
